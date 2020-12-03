@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,13 +11,13 @@ namespace AssignmentDay3
         static void Main(string[] args)
         {
             
-            Employee e1 = new Manager("Shantanu", 3, "tech manager", 2000);
-            Employee e2 = new GeneralManager("Aman", 3, "CEO", "bhaiya ji", 5000);
-            Employee e3 = new CEO("Aditya", 5, 100000);
-            Console.WriteLine(e3.CalacNetSalary());
-            Console.WriteLine(e2.CalacNetSalary());
+            Employee e1 = new Manager("A",10,2000,"tech manager");
+            Employee e2 = new GeneralManager("B",20,5000,"HR manager","xyz");
+            Employee e3 = new CEO("C",30,10000);
+            Console.WriteLine(e3.CalacNetSalary());//50000
+            Console.WriteLine(e2.CalacNetSalary());//15000
 
-            Console.WriteLine(e1.CalacNetSalary());
+            Console.WriteLine(e1.CalacNetSalary());//4000
            
             Console.ReadLine();
 
@@ -84,7 +84,7 @@ namespace AssignmentDay3
         }
 
 
-        private decimal basic;
+        protected decimal basic;
         public abstract decimal Basic
         {
             get;
@@ -111,7 +111,7 @@ namespace AssignmentDay3
             }
         }
 
-        private decimal basic;
+        //private decimal basic;
         public override decimal Basic
         {
             get
@@ -126,10 +126,10 @@ namespace AssignmentDay3
             }
         }
 
-        public Manager(string name, short deptNo, string designation = "manager", decimal basic = 0) : base(name, deptNo)
+        public Manager(string name, short deptNo,  decimal basic,string designation = "manager") : base(name, deptNo,basic)
         {
             
-            this.basic = basic;
+            //this.basic = basic;
             this.designation = designation;
 
         }
@@ -139,7 +139,7 @@ namespace AssignmentDay3
         public override decimal CalacNetSalary()
         {
             
-            return Basic;
+            return Basic*2;
         }
     }
 
@@ -158,7 +158,7 @@ namespace AssignmentDay3
                 perks = value;
             }
         }
-        private decimal basic;
+        //private decimal basic;
 
         public override decimal Basic
         {
@@ -172,15 +172,15 @@ namespace AssignmentDay3
             }
         }
 
-        public GeneralManager(string name, short deptNo, string designation, string perks, decimal basic) : base(name, deptNo, designation)
+        public GeneralManager(string name, short deptNo, decimal basic, string designation,  string perks ) : base(name, deptNo,basic, designation)
         {
-            this.basic = basic;
+            //this.basic = basic;
             this.perks = perks;
         }
 
         public override decimal CalacNetSalary()
         {
-            return Basic;
+            return Basic*3;
         }
 
 
@@ -189,7 +189,7 @@ namespace AssignmentDay3
     public class CEO : Employee
     {
 
-        private decimal basic;
+        //private decimal basic;
         public override decimal Basic
         {
             get
@@ -204,12 +204,12 @@ namespace AssignmentDay3
 
         public override sealed decimal CalacNetSalary()
         {
-            return basic;
+            return Basic*5;
         }
 
-        public CEO(string name, short deptNo, decimal basic) : base(name, deptNo)
+        public CEO(string name, short deptNo, decimal basic) : base(name, deptNo,basic)
         {
-            this.basic = basic;
+            //this.basic = basic;
         }
     }
 
