@@ -1,0 +1,7 @@
+G:\DotNetProjects\Day3\Day3\bin\Debug\Day3.exe.config
+G:\DotNetProjects\Day3\Day3\bin\Debug\Day3.exe
+G:\DotNetProjects\Day3\Day3\bin\Debug\Day3.pdb
+G:\DotNetProjects\Day3\Day3\obj\Debug\Day3.csprojAssemblyReference.cache
+G:\DotNetProjects\Day3\Day3\obj\Debug\Day3.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\Day3\Day3\obj\Debug\Day3.exe
+G:\DotNetProjects\Day3\Day3\obj\Debug\Day3.pdb
