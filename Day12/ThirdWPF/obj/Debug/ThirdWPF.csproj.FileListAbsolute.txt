@@ -1,0 +1,15 @@
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\MainWindow.g.cs
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\App.g.cs
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF_MarkupCompile.cache
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF_MarkupCompile.lref
+C:\Users\dell\source\repos\Day12\ThirdWPF\bin\Debug\ThirdWPF.exe.config
+C:\Users\dell\source\repos\Day12\ThirdWPF\bin\Debug\ThirdWPF.exe
+C:\Users\dell\source\repos\Day12\ThirdWPF\bin\Debug\ThirdWPF.pdb
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\MainWindow.baml
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.g.resources
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.Properties.Resources.resources
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.exe
+C:\Users\dell\source\repos\Day12\ThirdWPF\obj\Debug\ThirdWPF.pdb

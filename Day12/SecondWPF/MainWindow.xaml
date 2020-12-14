@@ -1,0 +1,25 @@
+﻿<Window x:Class="SecondWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecondWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="First Name" Name="lblFirstName" HorizontalAlignment="Left" Margin="126,107,0,0" VerticalAlignment="Top"/>
+       
+        <TextBox HorizontalAlignment="Left" Name="txtFirstName" Margin="245,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtFirstName_TextChanged" />
+        
+        <Label Content="Last Name"  Name="lblLastName" HorizontalAlignment="Left" Margin="126,156,0,0" VerticalAlignment="Top"/>
+        
+        <Label Content="Full Name"  Name="lblFullName" HorizontalAlignment="Left" Margin="130,199,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox HorizontalAlignment="Left"  Name="txtLastName" Margin="245,164,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtLastName_TextChanged" />
+        
+        <TextBox HorizontalAlignment="Left"  Name="txtFullName" Margin="245,203,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        
+        <Button Content="Show Full name" Name="btnShowFullName" HorizontalAlignment="Left" Margin="193,298,0,0" VerticalAlignment="Top" Height="37" Width="254" Click="btnShowFullName_Click"/>
+
+    </Grid>
+</Window>

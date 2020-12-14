@@ -1,0 +1,23 @@
+﻿<Window x:Class="ThirdWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThirdWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Num1" Name="lblNum1" HorizontalAlignment="Left" Margin="126,107,0,0" VerticalAlignment="Top"/>
+
+        <TextBox HorizontalAlignment="Left" Name="txtNum1" Margin="245,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="txtNum1_KeyDown"  />
+
+        <Label Content="Num2"  Name="lblNum2" HorizontalAlignment="Left" Margin="126,156,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Sum"  Name="lblSum" HorizontalAlignment="Left" Margin="130,199,0,0" VerticalAlignment="Top"/>
+
+        <TextBox HorizontalAlignment="Left"  Name="txtNum2" Margin="245,164,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="txtNum2_KeyDown"   />
+
+        <TextBox HorizontalAlignment="Left"  Name="txtSum" Margin="245,203,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
