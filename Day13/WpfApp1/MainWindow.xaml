@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6" RenderTransformOrigin="0.499,0.52">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lst1" Grid.ColumnSpan="2" Margin="35,34,543,125" Loaded="lst1_Loaded" SelectionMode="Multiple"/>
+        <ListBox x:Name="lst2" Grid.ColumnSpan="2" Margin="505,34,35,125" SelectionMode="Multiple"/>
+        <Button x:Name="btnmovleftone" Content="right" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="360,55,0,0" VerticalAlignment="Top" Height="32" Width="74" Click="btnmovleftone_Click"/>
+        <Button x:Name="btnmovleftall" Content="right All" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="360,122,0,0" VerticalAlignment="Top" Height="32" Width="74" Click="btnmovleftall_Click"/>
+        <Button x:Name="btnmovrightone" Content="left" Grid.Column="1" HorizontalAlignment="Left" Margin="360,190,0,0" VerticalAlignment="Top" Height="30" Width="74" Click="btnmovrightone_Click"/>
+        <Button x:Name="btnmovrightall" Content="left All" Grid.Column="1" HorizontalAlignment="Left" Margin="360,252,0,0" VerticalAlignment="Top" Height="30" Width="74" Click="btnmovrightall_Click"/>
+
+    </Grid>
+</Window>
