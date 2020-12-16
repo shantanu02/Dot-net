@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFDatabase.Database_15_2nd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDatabase"
+        mc:Ignorable="d"
+        Title="Database_15_2nd" Height="450" Width="800">
+    <Grid Margin="0,0,0,12">
+        <DataGrid x:Name="dgEmps" Margin="36,10,440,49"/>
+        <Button Content="Fill Data Set" HorizontalAlignment="Left" Margin="483,27,0,0" VerticalAlignment="Top" Height="32" Width="122" Click="Button_Click"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="483,78,0,0" VerticalAlignment="Top" Height="30" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.559,-0.777"/>
+        <Button Content="Update2" HorizontalAlignment="Left" Margin="483,126,0,0" VerticalAlignment="Top" Height="34" Width="122" Click="Button_Click_2"/>
+        <Button Content="GetChanges" HorizontalAlignment="Left" Margin="483,176,0,0" VerticalAlignment="Top" Height="31" Width="122" Click="Button_Click_3"/>
+        <Button Content="Accept Changes" HorizontalAlignment="Left" Margin="483,226,0,0" VerticalAlignment="Top" Height="31" Width="122" Click="Button_Click_4"/>
+        <Button Content="Reject Changes" HorizontalAlignment="Left" Margin="483,283,0,0" VerticalAlignment="Top" Height="41" Width="122" Click="Button_Click_5"/>
+        <TextBox x:Name="txtDeptNo" HorizontalAlignment="Left" Margin="635,366,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Height="26"/>
+        <Button Content="Filter" HorizontalAlignment="Left" Margin="483,358,0,0" VerticalAlignment="Top" Height="34" Width="109" Click="Button_Click_6"/>
+        <Button Content="Save to file" HorizontalAlignment="Left" Margin="635,27,0,0" VerticalAlignment="Top" Height="32" Width="134" Click="Button_Click_7"/>
+        <Button Content="Read from file" HorizontalAlignment="Left" Margin="635,78,0,0" VerticalAlignment="Top" Width="134" Height="28" Click="Button_Click_8"/>
+
+
+    </Grid>
+</Window>
