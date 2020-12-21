@@ -1,0 +1,29 @@
+﻿@model UserCity.Models.User
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Home</h2>
+
+@Html.DisplayFor(model => model.LoginName)
+<hr>
+
+
+<h3>
+<b>FullName--</b>
+@Html.DisplayFor(model => model.FullName)<br>
+ <b>Email--</b>
+@Html.DisplayFor(model => model.Email)<br>
+<b>CityId--</b>
+@Html.DisplayFor(model => model.CityId)<br>
+<b>Phone--</b>
+@Html.DisplayFor(model => model.Phone)<br>
+
+</h3>
+<br>
+
+<div>
+    @Html.ActionLink("Edit", "Edit")
+</div>
+@Html.ActionLink("Logout", "Logout")

@@ -1,0 +1,15 @@
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\bin\Debug\ExamFinalPracticeDatabase.exe.config
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\bin\Debug\ExamFinalPracticeDatabase.exe
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\bin\Debug\ExamFinalPracticeDatabase.pdb
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\MainWindow.g.cs
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\App.g.cs
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase_MarkupCompile.cache
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase_MarkupCompile.lref
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\MainWindow.baml
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.g.resources
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.Properties.Resources.resources
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.exe
+C:\Users\dell\source\repos\SundayPrac\ExamFinalPracticeDatabase\obj\Debug\ExamFinalPracticeDatabase.pdb

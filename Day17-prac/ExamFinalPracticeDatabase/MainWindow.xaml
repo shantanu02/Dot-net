@@ -1,0 +1,16 @@
+﻿<Window x:Class="ExamFinalPracticeDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamFinalPracticeDatabase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dgUser" HorizontalAlignment="Left" Height="270" Margin="36,26,0,0" VerticalAlignment="Top" Width="551"/>
+        <Button x:Name="btnFil" Content="Fill" HorizontalAlignment="Left" Margin="36,301,0,0" VerticalAlignment="Top" Width="297" Height="38" Click="btnFil_Click"/>
+        <Button x:Name="btnModify" Content="Modify" HorizontalAlignment="Left" Margin="36,372,0,0" VerticalAlignment="Top" Width="297" Height="37" Click="btnModify_Click"/>
+        <DataGrid x:Name="dgCity" HorizontalAlignment="Left" Height="182" Margin="592,26,0,0" VerticalAlignment="Top" Width="176"/>
+
+    </Grid>
+</Window>

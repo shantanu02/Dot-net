@@ -1,0 +1,15 @@
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\bin\Debug\ListRightLeft.exe.config
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\bin\Debug\ListRightLeft.exe
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\bin\Debug\ListRightLeft.pdb
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\MainWindow.g.cs
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\App.g.cs
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft_MarkupCompile.cache
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft_MarkupCompile.lref
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\MainWindow.baml
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.g.resources
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.Properties.Resources.resources
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.exe
+C:\Users\dell\source\repos\SundayPrac\ListRightLeft\obj\Debug\ListRightLeft.pdb
